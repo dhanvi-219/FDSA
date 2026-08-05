@@ -61,15 +61,10 @@ int main(){
     int result2=recursiveBinarySearch(arr,0,n-1,key);
 
     if(result2==-1)
-        cout <<"\nBook code not found.";
+        cout <<"\n\nBook code not found.";
     else
-        cout <<"\nBook code found at position"<< result2+1;
+        cout <<"\n\nBook code found at position"<< result2+1;
 
     return 0;
 }
-
-/*if the book codes are not sorted
-Solution: Arrange the book codes in sorted order.
-Binary Search works correctly only on a sorted array.
-*/
 

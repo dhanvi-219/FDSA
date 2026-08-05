@@ -45,8 +45,3 @@ int main()
     return 0;
 }
 
-/* if two or more words have the same maximum length
-Solution: print all longest word
-adding an extra loop
-*/
-

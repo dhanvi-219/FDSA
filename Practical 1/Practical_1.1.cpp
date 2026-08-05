@@ -11,7 +11,7 @@ int main()
     cout<<"Enter the number of bakery items:";
     cin>>n;
 
-    cout<<"Enter the bakery items:";
+    cout<<"Enter the bakery items no:";
     for(int i=0;i<n;i++){
         cin>>arr[i];
     }
@@ -38,7 +38,3 @@ int main()
     return 0;
 }
 
-/* if hours is in very large number what to do? (elements < hours)
-Solution: h=h%n
-It removes unnecessary full rotation
-*/

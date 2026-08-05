@@ -27,7 +27,3 @@ int main(){
     return 0;
 }
 
-/* if the number of borrow records is very large
-Solution: Reduce the number of comparisons.
-The current program compares every book ID with the remaining book IDs.
-*/

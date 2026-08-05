@@ -44,14 +44,10 @@ int iterativeLinearSearch(int arr[],int n,int key){
         int result2 = recursiveLinearSearch(arr,n,key,0);
 
         if(result2 == -1){
-            cout<<"\nLicence plate not found";
+            cout<<"\n\nLicence plate not found";
         }else{
-            cout<<"\nLicence plate found at position:"<<result2+1;
+            cout<<"\n\nLicence plate found at position:"<<result2+1;
         }
         return 0;
 
     }
-
-/* if the target plate appears more than once
-The current program returns the first occurrence.
-*/
