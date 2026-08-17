@@ -104,13 +104,11 @@ public:
         }
 
         Node* del = temp->next;
-
         temp->next = del->next;
 
         if (del == tail) {
             tail = temp;
         }
-
         delete del;
     }
 
@@ -120,13 +118,9 @@ public:
             cout << "It is empty";
             return;
         }
-
         Node* temp = head;
-
         head = head->next;
-
         temp->next = NULL;
-
         delete temp;
 
         if (head == NULL) {
@@ -135,14 +129,12 @@ public:
     }
 
     void print_ll() {
-
         Node* temp = head;
 
         while (temp != NULL) {
             cout << temp->data << " ";
             temp = temp->next;
         }
-
         cout << endl;
     }
 
@@ -151,22 +143,17 @@ public:
         if (temp == NULL) {
             return;
         }
-
         reverse_print(temp->next);
-
         cout << temp->data << " ";
     }
 
     void print_reverse() {
-
-        reverse_print(head);
-
-        cout << endl;
+         reverse_print(head);
+         cout << endl;
     }
 };
 
 int main() {
-
     Linkedlist q;
 
     // Insert

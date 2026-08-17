@@ -25,7 +25,6 @@ class Linkedlist{
     }
 
 //Insert at front
-
 void insert_at_front(int x){
     Node* newNode = new Node(x);
 
@@ -39,7 +38,6 @@ void insert_at_front(int x){
 }
 
 //Insert at end
-
 void insert_at_end(int x){
     Node* newNode = new Node(x);
 
@@ -53,7 +51,6 @@ void insert_at_end(int x){
 }
 
 //Insert in middle
-
 void insert_in_middle(int pos, int x){
     if(pos<0){
         cout<<"Invalid";
@@ -69,9 +66,7 @@ void insert_in_middle(int pos, int x){
     for(int i=0;i<pos-1;i++){
         temp = temp->next;
     }
-
     Node* newNode = new Node(x);
-
     newNode->next = temp->next;
     temp->next = newNode;
 }
