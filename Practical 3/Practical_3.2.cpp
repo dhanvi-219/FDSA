@@ -1,8 +1,9 @@
+//Practical 3.2
+
 #include <iostream>
 using namespace std;
 
-int main()
-{
+int main(){
     int n;
 
     cout << "Enter no of elements:";
